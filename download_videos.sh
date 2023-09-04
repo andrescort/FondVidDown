@@ -3,6 +3,7 @@
 
 install_yt ()
 {
+    apt install ffmpeg
     wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O $PREFIX/bin/yt-dlp
     chmod a+rx $PREFIX/bin/yt-dlp
 }
