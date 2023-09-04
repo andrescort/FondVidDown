@@ -14,6 +14,6 @@ download_videos ()
     done < "$urls_file"
 }
 
-urls_file="fondant_videos/urls_file"
+urls_file="FondVidDown/urls_file"
 install_yt
 download_videos
